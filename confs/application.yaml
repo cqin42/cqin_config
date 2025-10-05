@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: "https://github.com/cqin42/cqin_config.git" # mettre ici le repo de Github public avec le nom "TON-LOGIN_config"
     targetRevision: HEAD
-    path: app/
+    path: app
   destination:
     server: "https://kubernetes.default.svc"
     namespace: dev
